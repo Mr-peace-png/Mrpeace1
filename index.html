@@ -8,26 +8,22 @@
 </head>
 <body>
     <div class="container">
-    <div class="temp-container">
-        <h1 class="heading">TEMPERATURE CONVERTOR</h1>
-        <label for="celsius">celsius</label>
-        <input onchange="computeTemp(event)" type="number" name="celsius" id="celsius" placeholder="Enter temp" class="input">
         
+            <h1 class="heading"> Body mass index (BMI) CALCULATOR</h1>
+            <label for="Your Height (cm)"> Your height (cm)</label>
+            <input type="number"  class= "input" id="height" value="180" placeholder="Enter your height">
+            <label for="Your weight (kg)"> Your Weight (kg)</label>
+            <input type="number"class="input" id="weight" value="80" placeholder="Enter your Weight  in kg">
+            <button class="btn" id="btn"> compute BMI</button>
+            <label for="your bmi">your bmi</label>
+            <input disabled type="text" class="input" id="bmi-result">
+            <h4 class="info-text">weight condition:
+            <span id="weight-condition"></span></h4>
 
+ 
+            
     </div>
-     <div class="temp-container">
-        <label for="fahrenheit">fahrenheit</label>
-        <input onchange="computeTemp(event)" type="number" name="fahrenheit" id="celsius" placeholder="Enter temp" class="input">
-        
-
-    </div>
-     <div class="temp-container">
-        <label for="kelvin">kelvin</label>
-        <input  onchange="computeTemp(event)" type="number" name="kelvin" id="kelvin" placeholder="Enter temp" class="input">
-        
-
-    </div>
-</div>
-<script src="index.js"></script>
+    <script src="index.js"></script>
+    
 </body>
-</html> 
+</html>
